@@ -22,7 +22,7 @@ function VendorsDashboardHeroComp({loginAccount}) {
    <div className="overlay"></div>
 
    <div className='container pb-0 mb-0'>
-    <img src="../../assets/images/receptionists-elegant-suits-during-work-hours.jpg" alt="Hero" className='image '/>  
+    <img src="https://images.pexels.com/photos/4907455/pexels-photo-4907455.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Hero" className='image '/>  
    </div>
 
  </div>

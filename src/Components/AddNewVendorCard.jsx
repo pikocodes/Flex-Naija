@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSpotContext } from './SpotContext';
 import { useAccountContext } from './AccountHolder';
+import { Add } from '@mui/icons-material';
 
 function AddNewVendorCard({src, alt, text, icon, loginAccount}) {
 
@@ -14,24 +15,7 @@ function AddNewVendorCard({src, alt, text, icon, loginAccount}) {
 //   vendors:[{name:'', category:'', description:'', openningTime:'', closingTime:'', openningDays:[], address:'', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'', Image2:'', Image3:'', Image4:''}]
 // });
 
-//   const myVendorsDemo = 
-// {
-//       firstName: 'David', 
-//     lastName:'Samuel', 
-//     email:'blabla@gmail.com', password:'hhhh', 
-//   vendors:[
-//     {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-  
-//   {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
 
-//   {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-//   {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-//   {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-// ]
-// }
     
 
     // Receives data from the list of vendors by looping through comparing the individual's name and password (from the login after checking the active account and comparing the name and password) then it returns the object of the individual's information
@@ -62,7 +46,9 @@ function AddNewVendorCard({src, alt, text, icon, loginAccount}) {
     <div className="absolute top-7 left-5 translate-x-2/4 translate-y-2/4">
       <div className=' opacity-100 hover:opacity-80'>
         <img src={icon} alt={alt} className=' w-16 mx-auto my-auto'/>
-        <h3 className="text-white  text-center text-xl font-normal">{text}</h3>
+       
+        
+        <h3 className="text-white my-auto  text-center text-xl font-normal">{text}</h3>
       </div>
     </div>
   </Link>

@@ -29,7 +29,7 @@ function ContactHero() {
    <div className="overlay"></div>
 
    <div className='container pb-0 mb-0'>
-    <img src="../../assets/images/hero-carousel/contact-us.jpg" alt="Hero" className='image '/>  
+    <img src="https://img.freepik.com/premium-photo/video-conversation-coworkers-office-they-wave-each-other-internet-connection-through-webcam_616370-3870.jpg?size=626&ext=jpg&uid=R23939054&ga=GA1.1.602844675.1677600153&semt=ais" alt="Hero" className='image '/>  
    </div>
 
  </div>

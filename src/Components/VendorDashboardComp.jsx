@@ -16,25 +16,7 @@ function VendorDashboardComp({loginAccount}) {
   vendors:[{name:'', category:'', description:'', openningTime:'', closingTime:'', openningDays:[], address:'', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'', Image2:'', Image3:'', Image4:''}]
 });
 
-  const myVendorsDemo = 
-{
-    firstName: 'Samuel', 
-    lastName:'Samuel', 
-    email:'blabla@gmail.com', 
-    password:'hhhh', 
-    vendors:[
-    {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-  
-  {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
 
-  {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-  {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-  {name:'Vistro Lounge', category:'Resort', description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sit assumenda cumque delectus illo quibusdam veniam eligendi blanditiis. Nobis ab id, hic vero fuga quos', openningTime:'', closingTime:'', openningDays:[], address:'Gwaripa, Abuja', phoneNumber:'', email:'', instagramHandle:'', twitterHandle:'', facebookHandle:'', website:'', features:[], Image1:'../../assets/images/chicken.jpg', Image2:'', Image3:'', Image4:''},
-
-]
-}
 
 const places = [
   {
@@ -566,8 +548,8 @@ console.log(loginAccount);
 
 // Add New Vendor Card
 const addNewVendor = {
-  image: '../../assets/images/sunset-pool.jpg',
-  icon: '../../assets/icons/story.png',
+  image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=800',
+  icon: 'https://cdn-icons-png.flaticon.com/128/4653/4653741.png?uid=R23939054&ga=GA1.1.602844675.1677600153&track=ais',
   text: 'Add New Vendor'
 }
 
@@ -593,7 +575,7 @@ return (
 
       {/* Intro */}
       <div className=" md:py-6 py-3 text-center px-3">
-        <p className='md:text-4xl text-xl md:font-bold font-semibold'>Hola, {myVendorsDemo.firstName}!</p>
+        <p className='md:text-4xl text-xl md:font-bold font-semibold'>Hola, Dora!</p>
         <p>Your Vendors are listed below</p>
       </div>
 
