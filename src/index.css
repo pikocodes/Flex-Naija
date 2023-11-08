@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    box-shadow: theme('boxShadow.xl');
+  }
+
+
+  .input-field {
+    border: none;  /* Remove the default border */
+    outline: none; /* Remove the focus outline */
+    /* Add any other styling you want for the input field */
+  }
+  
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -50;
+  }
+  
+.search-bar .search-area {
+    width: 500px;
+  }
+  
+  .search-bar button {
+    width: 200px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.407); 
+    z-index: 10;
+    height: 100%;
+    /* overflow: hidden; */
+  }
+
+  .overlay-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.407); 
+    z-index: -10;
+    height: 100%;
+    /* overflow: hidden; */
+  }
+
+
+
+  .overlay-delete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.407); 
+    /* z-index: 10; */
+    height: 100%;
+    /* overflow: hidden; */
+  }
+
+.high-index {
+  z-index: 9999;
+  background-color: brown;
+}
+
+  .background-image {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+  }
+  
+
+/* new */
+
+.hero {
+  position: relative;
+  height: 600px; /* Default height, adjust as needed */
+}
+
+.hero-home {
+  position: relative;
+  height: 600px; 
+}
+
+
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+
+/* CSS */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make the left image container the same height as the right images */
+}
+
+.left-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  flex: 1; /* Allow the left image to take up available height */
+}
+
+.right-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  margin-bottom: 10px; /* Add margin to the bottom of the right images */
+}
+
+/* For the third image, add margin to the right and bottom to create a gap */
+.right-image:last-child {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+  /* Responsive Styles */
+  
+  /* @media (max-width: 810px) {
+    .hero {
+      height: 400px;
+    }
+    .hero-home {
+      height: 300px;
+    }
+  } */
+
+  @media (max-width: 834px) {
+    .hero {
+      height: 400px;
+    }
+    .hero-home {
+      height: 500px;
+    }
+  }
+  
+  @media (max-width: 884px) {
+    .hero {
+      height: 400px;
+    }
+    .hero-home {
+      height: 550px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .hero {
+      height: 300px;
+    }
+    .hero-home {
+      height: 240px;
+    }
+  }
+  
+
+
+  /* Images for individual spots display */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  } */
+
+  /* sizing of map container */ 
+.leaflet-container {
+  height: 100%; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
