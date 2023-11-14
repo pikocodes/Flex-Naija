@@ -10,9 +10,9 @@ function CatergoricSpotsComp() {
  
 
     const spotsPlace = [
-      {name: 'Restuarant', link: 'Restuarant', icon:'', image: 'https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=800'},
+      {name: 'Restaurant', link: 'Restuarant', icon:'', image: 'https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=800'},
         {name: 'Art Galleries', link: 'Art-Galleries', image: 'https://images.pexels.com/photos/2372978/pexels-photo-2372978.jpeg?auto=compress&cs=tinysrgb&w=800'},
-        {name: 'Bar', link: 'Bar', icon:'', image: 'https://images.pexels.com/photos/1267265/pexels-photo-1267265.jpeg?auto=compress&cs=tinysrgb&w=800'},
+        {name: 'Hotel', link: 'Hotel', icon:'', image: 'https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=800'},
         {name: 'Pools', link: 'Pools', icon:'', image: 'https://images.pexels.com/photos/1605480/pexels-photo-1605480.jpeg?auto=compress&cs=tinysrgb&w=800'},
         {name: 'Beach', link: 'Beach', icon:'', image: 'https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg?auto=compress&cs=tinysrgb&w=800'},
         {name: 'Lounge', link: 'Lounge', icon:'', image: 'https://images.pexels.com/photos/6174144/pexels-photo-6174144.jpeg?auto=compress&cs=tinysrgb&w=800'},

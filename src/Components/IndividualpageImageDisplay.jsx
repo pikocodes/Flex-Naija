@@ -570,15 +570,15 @@ function IndividualpageImageDisplay({individualSpot, loginAccount}) {
         () => {
         
           setGridImage({
-            ...gridImage, 
-            image1: demoSpot.images1,
-            image2: demoSpot.images2,
-            video: demoSpot.video
+            // ...gridImage, 
+            // image1: demoSpot.images1,
+            // image2: demoSpot.images2,
+            // video: demoSpot.video
           })
 
           // run a loop or find a way that stores the recieved data in to the state array
           setMobileCarouselImages({
-            ...mobileCarouselImages , src :demoSpot.images1,
+            // ...mobileCarouselImages , src :demoSpot.images1,
             alt:"Demo Image",
           })
 
@@ -748,7 +748,7 @@ function IndividualpageImageDisplay({individualSpot, loginAccount}) {
         // selectedItem={currentIndex}
         autoPlay={true}
         infiniteLoop
-        showStatus={true}
+        showStatus={false}
         showThumbs={false}
         showIndicators={false}
         interval={3000}

@@ -45,7 +45,7 @@ function AddNewVendorCard({src, alt, text, icon, loginAccount}) {
 <Link to={`/VendorDetailsPage`} onClick={() => {setSelectedSpot('Vendor Account Details'), setAccountHolder(loginAccount)}}>
     <div className="absolute top-7 left-5 translate-x-2/4 translate-y-2/4">
       <div className=' opacity-100 hover:opacity-80'>
-        <img src={icon} alt={alt} className=' w-16 mx-auto my-auto'/>
+        <img src={icon} alt={alt} className=' mb-2 w-12 mx-auto my-auto'/>
        
         
         <h3 className="text-white my-auto  text-center text-xl font-normal">{text}</h3>

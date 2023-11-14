@@ -590,7 +590,7 @@ return (
         {/* Looping through the vendors */}
 
         {places.map((eachVendor, vendorIndex) => (
-        <VendorsCard key={vendorIndex} src={eachVendor.images[0]} alt={eachVendor.name} title={eachVendor.name} address={eachVendor.address} loginAccount={loginAccount} feature={eachVendor.category}  />
+        <VendorsCard key={vendorIndex} src={eachVendor.images[1]} alt={eachVendor.name} title={eachVendor.name} address={eachVendor.address} loginAccount={loginAccount} feature={eachVendor.category}  />
         ))} 
 
        

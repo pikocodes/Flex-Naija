@@ -23,17 +23,17 @@ function ContactInfo() {
         {/* Info Desk */}
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 content-center text-center px-7 py-24'>
         <div className="  bg-white py-8 px-8  rounded-lg text-slate-500">
-             <img src="../../assets/icons/mail.png" alt="Email icon" className=' w-12 sm:w-14 mx-auto mb-6' />
+            
             <h1 className=' text-xl font-medium text-slate-700'>Email</h1>
             <p>Infodesk@flexnaija.com</p>
         </div>
         <div className=" bg-white py-8 px-8  rounded-lg text-slate-500">
-            <img src="../../assets/icons/telephone-1.png" alt="Phone icon"  className=' w-12 sm:w-14 mx-auto mb-6'/>
+            
             <h1 className=' text-xl font-medium text-slate-700'>Phone Number</h1>
             <p>+234 704 905 3369</p>
         </div>
         <div className=" bg-white py-8 px-8  rounded-lg text-slate-500">
-            <img src="../../assets/icons/location.png" alt="Address icon" className=' w-12 sm:w-14 mx-auto mb-6'/>
+            
             <h1 className=' text-xl font-medium text-slate-700'>Address</h1>
             <p>Abuja, Nigeria</p>
         </div>
