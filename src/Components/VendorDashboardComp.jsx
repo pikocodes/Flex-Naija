@@ -598,7 +598,7 @@ return (
         {/* Card for creating a new vendor */}
 
         
-        <AddNewVendorCard src={addNewVendor.image} alt={addNewVendor.text} text={addNewVendor.text} loginAccount={loginAccount} icon={addNewVendor.icon2} />
+        <AddNewVendorCard src={addNewVendor.image} alt={addNewVendor.text} text={addNewVendor.text} loginAccount={loginAccount} icon={addNewVendor.icon} />
 
 
        

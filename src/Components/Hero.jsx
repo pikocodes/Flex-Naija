@@ -1,11 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import drinks from '../../assets/images/hero-carousel/drinks.jpg'
-import hotels from '../../assets/images/hero-carousel/hotels.jpg'
-import lounge from '../../assets/images/hero-carousel/lounge.jpg'
-import art from '../../assets/images/hero-carousel/art.jpg'
-import drink from '../../assets/icons/drink.png'
+
 
 const images = [
   'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
