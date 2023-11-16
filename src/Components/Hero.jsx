@@ -10,7 +10,16 @@ import drink from '../../assets/icons/drink.png'
 const images = [
   'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
   'https://images.pexels.com/photos/9335987/pexels-photo-9335987.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://img.freepik.com/free-photo/romantic-brunette-woman-pink-glasses-drinking-cocktail-during-photoshoot-with-friends-fascinating-ladies-spending-weekend-pool_197531-20895.jpg?size=626&ext=jpg&ga=GA1.1.602844675.1677600153&semt=ais',
   'https://images.pexels.com/photos/1850595/pexels-photo-1850595.jpeg?auto=compress&cs=tinysrgb&w=800',
+  // Add more image URLs as needed
+];
+const imagesNew = [
+  'https://images.pexels.com/photos/7148664/pexels-photo-7148664.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/4057701/pexels-photo-4057701.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/3997993/pexels-photo-3997993.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://img.freepik.com/free-photo/friends-having-party-celebration-pool_23-2149215991.jpg?w=740&t=st=1700139205~exp=1700139805~hmac=6f4c53b392a99a5458b3d3aca8a7344f44b51912cb591daf875176f990bd11d8',
+  'https://images.pexels.com/photos/6224736/pexels-photo-6224736.jpeg?auto=compress&cs=tinysrgb&w=800',
   // Add more image URLs as needed
 ];
 
@@ -81,12 +90,30 @@ const Hero = () => {
         showThumbs={false}
         showIndicators={false}
         interval={4000}
-        className=' home-container pb-0 mb-0' 
+        className='home-container pb-0 mb-0 hidden sm:block' 
         // Change the interval duration as needed
       >
 
 
         {images.map((image, index) => (
+            <img key={index} src={image} alt={`Image ${index + 1}`} className='background-image' />
+          
+        ))}
+      </Carousel>
+      <Carousel 
+        // selectedItem={currentIndex}
+        autoPlay={true}
+        infiniteLoop
+        showStatus={false}
+        showThumbs={false}
+        showIndicators={false}
+        interval={4000}
+        className='home-container pb-0 mb-0 block sm:hidden' 
+        // Change the interval duration as needed
+      >
+
+
+        {imagesNew.map((image, index) => (
             <img key={index} src={image} alt={`Image ${index + 1}`} className='background-image' />
           
         ))}

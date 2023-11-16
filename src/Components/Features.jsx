@@ -80,7 +80,7 @@ const [stateCatergories, setCatergories] = useState([]);
 
 
   return (
-    <div className=' bg-slate-200 m-0 pb-5 sm:pb-14 pt-7 sm:pt-14'>
+    <div className=' bg-slate-200 m-0 pb-28 sm:pb-14  pt-14 sm:pt-14'>
        <h2 className=' text-xl sm:text-2xl text-center  md:text-3xl font-semibold'>Features</h2>
         <p className='mx-6 mt-1 text-slate-400 text-center text-xs sm:text-sm font-light mb-7 sm:mb-14'>Explore Fascinating Categories and Expand Your Horizons! </p>
 

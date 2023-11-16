@@ -190,7 +190,8 @@
       height: 300px;
     }
     .hero-home {
-      height: 240px;
+      /* height: 240px; */
+      height: 540px;
     }
   }
   
