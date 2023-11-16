@@ -550,6 +550,7 @@ console.log(loginAccount);
 const addNewVendor = {
   image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=800',
   icon: 'https://cdn-icons-png.flaticon.com/128/4653/4653741.png?uid=R23939054&ga=GA1.1.602844675.1677600153&track=ais',
+  icon2: '../../assets/icons/story.png',
   text: 'Add New Vendor'
 }
 
@@ -597,7 +598,7 @@ return (
         {/* Card for creating a new vendor */}
 
         
-        <AddNewVendorCard src={addNewVendor.image} alt={addNewVendor.text} text={addNewVendor.text} loginAccount={loginAccount} icon={addNewVendor.icon} />
+        <AddNewVendorCard src={addNewVendor.image} alt={addNewVendor.text} text={addNewVendor.text} loginAccount={loginAccount} icon={addNewVendor.icon2} />
 
 
        

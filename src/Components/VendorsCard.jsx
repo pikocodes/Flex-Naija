@@ -124,10 +124,10 @@ function VendorsCard({src, alt, title, address, feature, loginAccount}) {
       <div className="absolute top-0 left-0 py-1 px-3  rounded-sm m-3">
       <div>
         <h3 className="text-white text-xs font-medium">
-        {/* {
+        {
           visibility ? <img src='../../assets/icons/eye.png' className=' w-6'/> :
           <img src='../../assets/icons/close-eye.png' className=' w-6'/>
-        } */}
+        }
         </h3>
         </div>
       </div>
